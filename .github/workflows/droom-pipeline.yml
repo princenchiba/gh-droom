@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: First Check 
         run: echo "Checking runner"
-        run: echo "Testing check"
+          echo "Testing check"
       - name: Last Check
         run: echo "Done now"
         
