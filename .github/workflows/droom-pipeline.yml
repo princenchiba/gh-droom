@@ -1,0 +1,12 @@
+name: fw
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Check 
+        run: echo "Checking runner"
+        run: echo "Testing check"
+      - name: Last Check
+        run: echo "Done now"
+        
